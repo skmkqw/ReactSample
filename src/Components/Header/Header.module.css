@@ -1,5 +1,6 @@
 .header {
     background-color: #F4F1DE;
+    margin-bottom: 20px;
 }
 .headerContainer {
     display: flex;
