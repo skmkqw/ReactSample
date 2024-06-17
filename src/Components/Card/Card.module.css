@@ -1,10 +1,9 @@
 .card {
     display: flex;
+    flex: 0 1 30%;
     flex-direction: column;
     border-radius: 15px;
     background-color: #2f2f2f;
-    max-width: 300px;
-    margin-left: 20px;
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
@@ -29,4 +28,16 @@
 
 .cardDescription {
     color: #cecece;
+}
+
+@media (max-width: 900px) {
+    .card {
+        flex: 0 1 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex: 0 1 100%;
+    }
 }

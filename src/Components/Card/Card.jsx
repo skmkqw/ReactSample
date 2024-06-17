@@ -16,11 +16,8 @@ function Card(props)
 }
 
 Card.propTypes = {
+    id: PropTypes.number,
     name: PropTypes.string,
     date: PropTypes.object
-}
-Card.defaultProps = {
-    name: "Card",
-    date: new Date()
 }
 export default Card
