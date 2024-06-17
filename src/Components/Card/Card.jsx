@@ -1,12 +1,14 @@
 import styles from './Card.module.css'
 import landscapePic from '../../assets/wallpaper.jpg'
 import PropTypes from 'prop-types';
+import {useState} from "react";
 function Card(props)
 {
-    const handleClick = (e) => e.target.parentElement.style.backgroundColor = "#a83737";
+    const [isActive, setActive] = useState(false);
+    const handleClick = () => setActive(!isActive);
 
     return (
-        <div className={styles.card} onClick={(e) => handleClick(e)}>
+        <div className={`${styles.card} ${isActive ? styles.cardActive : ''}`}  onClick={() => handleClick()}>
             <img src={landscapePic} alt="Landscape picture" className={styles.cardPicture}/>
             <div className={styles.cardContent}>
                 <h3 className={styles.cardName}>{props.name}</h3>

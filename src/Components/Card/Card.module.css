@@ -8,6 +8,10 @@
     cursor: pointer;
 }
 
+.cardActive {
+    background-color: #a83737;
+}
+
 .card:hover {
     background-color: #3d3d3d;
 }
