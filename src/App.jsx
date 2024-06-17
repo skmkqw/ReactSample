@@ -5,7 +5,7 @@ function App() {
     return (
         <>
             <Header/>
-            <Card/>
+            <Card name = "Card 1" date = {new Date(2022, 4, 11)}/>
             <Footer/>
         </>
     );
