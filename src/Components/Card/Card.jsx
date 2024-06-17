@@ -3,8 +3,10 @@ import landscapePic from '../../assets/wallpaper.jpg'
 import PropTypes from 'prop-types';
 function Card(props)
 {
+    const handleClick = (e) => e.target.parentElement.style.backgroundColor = "#a83737";
+
     return (
-        <div className={styles.card}>
+        <div className={styles.card} onClick={(e) => handleClick(e)}>
             <img src={landscapePic} alt="Landscape picture" className={styles.cardPicture}/>
             <div className={styles.cardContent}>
                 <h3 className={styles.cardName}>{props.name}</h3>
