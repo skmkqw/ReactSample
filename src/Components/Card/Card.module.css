@@ -8,13 +8,19 @@
     cursor: pointer;
 }
 
-.cardActive {
-    background-color: #a83737;
-}
-
 .card:hover {
     background-color: #3d3d3d;
 }
+
+.cardActive {
+    background-color: #8badf8;
+}
+
+.cardActive:hover {
+    background-color: rgba(139, 173, 248, 0.73);
+}
+
+
 
 .cardPicture {
     width: 100%;
@@ -32,6 +38,10 @@
 
 .cardDescription {
     color: #cecece;
+}
+
+.cardActive .cardDescription {
+    color: #ffffff;
 }
 
 @media (max-width: 900px) {
