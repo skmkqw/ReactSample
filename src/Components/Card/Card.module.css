@@ -1,10 +1,10 @@
 .card {
-    flex: 0 1 30%;
+    flex: 0 1 31%;
     flex-direction: column;
 }
 
 .cardActive {
-    background-color: #8badf8;
+    background-color: #8badf8 !important;
 }
 
 .cardActive:hover {

@@ -1,7 +1,7 @@
 import Header from "./Components/Header/Header.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
-import Card from "./Components/Card/Card.jsx";
 import CardList from './Components/CardList/CardList.jsx'
+import CoffeeOrder from "./Components/CoffeeOrder/CoffeeOrder.jsx";
 
 function App() {
     const cards = [
@@ -20,11 +20,13 @@ function App() {
             name: "Card 3",
             date: new Date(2024, 11, 23)
         }
-    ]
+    ];
+
     return (
         <>
             <Header/>
             <CardList cards={cards}/>
+            <CoffeeOrder />
             <Footer/>
         </>
     );

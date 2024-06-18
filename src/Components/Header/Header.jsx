@@ -5,7 +5,7 @@ function Header()
         <header className={styles.header}>
             <div className={`container ${styles.headerContainer}`}>
                 <h1>React Sample</h1>
-                <nav className={"header-nav"}>
+                <nav className={styles.headerNav}>
                     <ul className={styles.headerLinks}>
                         <li className={styles.headerLink}>
                             <a href="">Home</a>

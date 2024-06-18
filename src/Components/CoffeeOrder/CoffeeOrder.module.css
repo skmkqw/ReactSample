@@ -1,0 +1,41 @@
+.coffeeCard {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.coffeeImg > img {
+    max-width: clamp(17.5rem, 10.833rem + 13.89vw, 21.25rem);
+    border-radius: 15px;
+}
+
+.coffeeContent {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.938rem, -1.84rem + 5.79vw, 2.5rem);
+    max-width: 50%;
+}
+
+.coffeeForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coffeeInput {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+@media  (max-width: 768px)
+{
+    .coffeeCard {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+    }
+}
