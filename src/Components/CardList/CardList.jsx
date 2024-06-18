@@ -4,8 +4,8 @@ import Card from "../Card/Card.jsx";
 function CardList({ cards }){
 
     return(
-        <div className={styles.cardList}>
-            <h2 className={styles.cardListTitle}>
+        <section>
+            <h2>
                 {cards.length > 1 ? "Cards" : "Card"}
             </h2>
             <div className={styles.cardListContainer}>
@@ -13,7 +13,7 @@ function CardList({ cards }){
                     <Card key={card.id} name={card.name} date={card.date} />
                 )}
             </div>
-        </div>
+        </section>
     );
 }
 

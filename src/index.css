@@ -8,6 +8,14 @@
 p, h1, h2, h3 {
   margin: 0;
 }
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+}
 a {
   font-weight: 500;
   color: white;
@@ -20,7 +28,26 @@ body {
   min-height: 100vh;
 }
 
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
+}
+
+.card {
+  display: flex;
+  border-radius: 15px;
+  background-color: #2f2f2f;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #3d3d3d;
 }

@@ -1,15 +1,6 @@
 .card {
-    display: flex;
     flex: 0 1 30%;
     flex-direction: column;
-    border-radius: 15px;
-    background-color: #2f2f2f;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-}
-
-.card:hover {
-    background-color: #3d3d3d;
 }
 
 .cardActive {
@@ -19,8 +10,6 @@
 .cardActive:hover {
     background-color: rgba(139, 173, 248, 0.73);
 }
-
-
 
 .cardPicture {
     width: 100%;
