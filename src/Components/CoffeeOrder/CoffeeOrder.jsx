@@ -26,12 +26,12 @@ function CoffeeOrder()
                         <h3>Ready to start your morning?</h3>
                     </div>
                     <div className={styles.coffeeForm}>
-                        <div className={styles.coffeeInput}>
+                        <div className="input-group">
                             <label htmlFor={"coffeeType"}>Coffee type:</label>
                             <input type="text" id={"coffeeType"} value={order.type}
                                    onChange={ChangeCoffeeType}/>
                         </div>
-                        <div className={styles.coffeeInput}>
+                        <div className="input-group">
                             <label htmlFor={"coffeeQuantity"}>Coffee quantity:</label>
                             <input type="number" id={"coffeeQuantity"} value={order.quantity}
                                    onChange={ChangeCoffeeQuantity}/>

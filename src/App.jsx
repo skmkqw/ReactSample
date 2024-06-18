@@ -2,6 +2,7 @@ import Header from "./Components/Header/Header.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import CardList from './Components/CardList/CardList.jsx'
 import CoffeeOrder from "./Components/CoffeeOrder/CoffeeOrder.jsx";
+import ToDoList from "./Components/ToDoList/ToDoList.jsx";
 
 function App() {
     const cards = [
@@ -25,8 +26,11 @@ function App() {
     return (
         <>
             <Header/>
-            <CardList cards={cards}/>
-            <CoffeeOrder />
+            <div className="container">
+                <CardList cards={cards}/>
+                <CoffeeOrder />
+                <ToDoList />
+            </div>
             <Footer/>
         </>
     );
