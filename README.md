@@ -1,8 +1,10 @@
-# React + Vite
+# React Sample
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This template provides a minimal set of **React** concepts such as:
+1. **Components** (Card)
+2. **Nested components** (CardList)
+3. **props** (Card & CardList)
+4. **useState** hook (CoffeeOrder, ToDoList)
+5. **Updater functions** (CoffeeOrder, ToDoList)
+6. **onChange** handler (CoffeOrder, ToDoList)
+7. **Module css** files (All components)
