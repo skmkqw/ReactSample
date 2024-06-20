@@ -3,6 +3,7 @@ import Footer from "./Components/Footer/Footer.jsx";
 import CardList from './Components/CardList/CardList.jsx'
 import CoffeeOrder from "./Components/CoffeeOrder/CoffeeOrder.jsx";
 import ToDoList from "./Components/ToDoList/ToDoList.jsx";
+import Dimensions from "./Components/Dimesions/Dimensions.jsx";
 
 function App() {
     const cards = [
@@ -30,6 +31,7 @@ function App() {
                 <CardList cards={cards}/>
                 <CoffeeOrder />
                 <ToDoList />
+                <Dimensions />
             </div>
             <Footer/>
         </>
