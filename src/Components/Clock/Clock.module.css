@@ -1,0 +1,29 @@
+.clockCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.clockHead {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clockContent{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.clockContent > p {
+    font-size: 38px;
+    text-align: center;
+    background-color: #797979;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    padding: 0 12px;
+    width: 160px;
+}
