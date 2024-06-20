@@ -32,8 +32,8 @@ function Dimensions()
                         <p>Using React <span>useEffect</span> hook</p>
                     </div>
                     <div className={styles.dimensionsBottom}>
-                        <h3>{`Window width: ${width}px`}</h3>
-                        <h3>{`Window height: ${height}px`}</h3>
+                        <h3 className='btn'>{`Window width: ${width}px`}</h3>
+                        <h3 className='btn'>{`Window height: ${height}px`}</h3>
                     </div>
                 </div>
             </div>

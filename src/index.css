@@ -69,10 +69,6 @@ section {
   cursor: pointer;
 }
 
-.card:hover {
-  background-color: #3d3d3d;
-}
-
 .btn {
   border-radius: 8px;
   border: none;
@@ -82,4 +78,9 @@ section {
   font-family: Poppins, sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }

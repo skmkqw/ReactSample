@@ -7,6 +7,7 @@ import Dimensions from "./Components/Dimesions/Dimensions.jsx";
 import Clock from "./Components/Clock/Clock.jsx";
 import NestedL1 from "./Components/Nested/NestedL1.jsx";
 import RefVsState from "./Components/RefVsState/RefVsState.jsx";
+import Stopwatch from "./Components/Stopwatch/Stopwatch.jsx";
 
 function App() {
     const cards = [
@@ -38,6 +39,7 @@ function App() {
                 <Clock />
                 <NestedL1 />
                 <RefVsState />
+                <Stopwatch />
             </div>
             <Footer/>
         </>

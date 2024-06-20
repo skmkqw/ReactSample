@@ -31,4 +31,6 @@
 
 .dimensionsBottom > h3 {
     font-weight: 500;
+    width: 220px;
+    text-align: center;
 }

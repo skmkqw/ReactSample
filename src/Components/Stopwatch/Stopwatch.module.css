@@ -1,0 +1,33 @@
+.stopwatchCard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.stopwatchHead {
+    text-align: center;
+}
+
+.stopwatchContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.stopwatchTime {
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+.stopwatchButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.stopwatchButtons > button {
+    width: 80px;
+}
