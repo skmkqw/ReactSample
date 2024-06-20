@@ -1,6 +1,6 @@
 # React Sample
 
-This template provides a minimal set of React contepts
+This template provides a minimal set of **React** concepts such as:
 1. **Components** (Card)
 2. **Nested components** (CardList)
 3. **props** (Card & CardList)
