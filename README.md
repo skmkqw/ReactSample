@@ -8,6 +8,6 @@ This template provides a minimal set of **React** concepts such as:
 5. **Updater functions** (CoffeeOrder, ToDoList)
 6. **onChange** handler (CoffeeOrder, ToDoList)
 7. **Module css** files (All components)
-8. **useEffect** hook (Dimensions, Clock)
+8. **useEffect** hook (Dimensions, Clock, RefVsState, Stopwatch)
 9. **useContext** hook (Nested)
-10. **useRef** hook (RefVsState)
+10. **useRef** hook (RefVsState, Stopwatch)
