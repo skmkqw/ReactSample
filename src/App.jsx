@@ -5,6 +5,7 @@ import CoffeeOrder from "./Components/CoffeeOrder/CoffeeOrder.jsx";
 import ToDoList from "./Components/ToDoList/ToDoList.jsx";
 import Dimensions from "./Components/Dimesions/Dimensions.jsx";
 import Clock from "./Components/Clock/Clock.jsx";
+import NestedL1 from "./Components/Nested/NestedL1.jsx";
 
 function App() {
     const cards = [
@@ -34,6 +35,7 @@ function App() {
                 <ToDoList />
                 <Dimensions />
                 <Clock />
+                <NestedL1 />
             </div>
             <Footer/>
         </>
