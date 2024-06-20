@@ -1,0 +1,52 @@
+.refCard {
+    padding: 20px;
+}
+
+.refContentWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.refContent {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.refInputs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.refResult {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-width: 50%;
+}
+
+.refCounter {
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 40px !important;
+}
+
+@media (max-width: 950px) {
+    .refContentWrapper {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .refResult {
+        text-align: center;
+    }
+}

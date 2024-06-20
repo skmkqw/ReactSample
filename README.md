@@ -10,3 +10,4 @@ This template provides a minimal set of **React** concepts such as:
 7. **Module css** files (All components)
 8. **useEffect** hook (Dimensions, Clock)
 9. **useContext** hook (Nested)
+10. **useRef** hook (RefVsState)

@@ -6,6 +6,7 @@ import ToDoList from "./Components/ToDoList/ToDoList.jsx";
 import Dimensions from "./Components/Dimesions/Dimensions.jsx";
 import Clock from "./Components/Clock/Clock.jsx";
 import NestedL1 from "./Components/Nested/NestedL1.jsx";
+import RefVsState from "./Components/RefVsState/RefVsState.jsx";
 
 function App() {
     const cards = [
@@ -36,6 +37,7 @@ function App() {
                 <Dimensions />
                 <Clock />
                 <NestedL1 />
+                <RefVsState />
             </div>
             <Footer/>
         </>

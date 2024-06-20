@@ -5,7 +5,7 @@ function NestedL2()
         padding: 20 + 'px',
         display: 'flex',
         justifyContent: 'space-between',
-        backgroundColor: '#797979',
+        backgroundColor: '#8badf8',
         flex: '0 1 80%'
     }
 
