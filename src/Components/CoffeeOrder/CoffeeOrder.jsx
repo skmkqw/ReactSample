@@ -1,5 +1,5 @@
 import styles from './CoffeeOrder.module.css'
-import coffeePic from '../../assets/coffee.jpg'
+import coffeePic from '../../assets/coffee.png'
 import {useState} from "react";
 function CoffeeOrder()
 {
